@@ -1,24 +1,28 @@
 {
     "workbench.iconTheme": "material-icon-theme",
     "workbench.colorTheme": "One Dark Pro Darker",
-    "editor.fontSize": 16,
     "editor.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace",
+    "editor.fontSize": 16,
     "editor.lineHeight": 30,
     "editor.minimap.enabled": true,
     "terminal.integrated.fontFamily": "'Source Code Pro', Consolas, 'Courier New', monospace",
     "terminal.integrated.fontSize": 16,
     "terminal.integrated.lineHeight": 1,
-    "explorer.confirmDragAndDrop": false,
-    "liveServer.settings.donotShowInfoMsg": true,
     "terminal.integrated.tabs.enabled": true,
-    "workbench.editorAssociations": {
-        "*.ipynb": "jupyter.notebook.ipynb"
-    },
-    "liveServer.settings.donotVerifyTags": true,
     "files.exclude": {
+        "": true,
         "**/.git": false
     },
+    "editor.linkedEditing": true,
+    "liveServer.settings.donotShowInfoMsg": true,
     "git.autofetch": true,
-    "explorer.confirmDelete": true,
-    "vscode-edge-devtools.mirrorEdits": true
+    "bracketPairColorizer.depreciation-notice": false,
+    "editor.cursorBlinking": "phase",
+    "terminal.integrated.cursorBlinking": true,
+    "editor.formatOnSave": true,
+    "diffEditor.maxComputationTime": 0,
+    "diffEditor.maxFileSize": 0,
+    "[html]": {
+        "editor.defaultFormatter": "HookyQR.beautify"
+    },
 }
